@@ -43,7 +43,7 @@ I plan to continue improving this portfolio by adding:
 
 ## 🔗 Live Website
 
-![Live Website URL](https://isaacmohr.github.io/Portfolio/)
+[My Portfolio](https://isaacmohr.github.io/Portfolio/)
 
 ## 👤 Author
 
