@@ -39,7 +39,7 @@ I plan to continue improving this portfolio by adding:
 
 ## 📸 Preview
 
-![Portfolio Website Screenshot](images/portfolio-preview.png)
+![Portfolio Website Screenshot](assets/portfolio-preview.png)
 
 ## 🔗 Live Website
 
