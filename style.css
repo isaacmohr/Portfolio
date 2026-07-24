@@ -1,0 +1,400 @@
+/* Reset */
+/* Reset Browser Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Overall Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d1d1d1;
+    color: #000000;
+    line-height: 1.6;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 5%;
+    background-color: #09162b;
+
+    position: sticky;
+    top: 0;
+}
+
+
+/* Logo */
+.logo a {
+    color: #aa8407;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
+.nav-links a {
+    color: #f8fafc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.nav-links a:hover {
+    color: #aa8407;
+}
+
+/*Profile Image*/
+.profile-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #aa8407;
+    object-fit: cover;
+}
+/* Hero Section */
+.hero {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+
+.hero h2 {
+    color: #aa8407;
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+
+.hero p {
+    color: #797474;
+    max-width: 600px;
+}
+section {
+    padding: 80px 20px;
+}
+
+/* About Section */
+.about {
+    max-width: 1100px;
+    margin: 100px auto;
+    padding: 40px;
+    border: 3px solid #aa8407;
+}
+.about {
+    background-color: #09162b;
+    color: #aa8407;
+    font-size: 24px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+}
+.about h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.about p {
+    color: #797474;
+    font-size: 18px;
+}
+.about ol {
+    list-style-type: disc;
+    color: #797474;
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: center;
+    list-style-type: decimal;
+
+}
+
+/* Projects Section */
+.projects {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.project-card {
+    background-color: #09162b;
+    color: white; 
+    padding: 35px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    border: 3px solid #aa8407;
+}
+
+.projects-intro {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #797474;
+    text-align: center;
+    font-size: 18px;
+}
+
+.projects h1 {
+    color: #aa8407;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project-card h2 {
+    color: #aa8407;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    color: #aa8407;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* Footer */
+footer {
+    background-color: #09162b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+}
+
+/* Contact Hero Section */
+.contact-hero {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contact-hero h1 {
+    font-size: 2rem;
+    margin: 15px 0;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+.contact-hero h2 {
+    color: #aa8407;
+    max-width: 800px;
+    text-align: center;
+    margin: 8px 0; 
+}
+.contact-hero p {
+    color: #797474;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Contact Info Section */
+.contact-info {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    background-color: #09162b;
+    color: #aa8407;
+    border-radius: 15px;
+    border: 3px solid #aa8407; }
+
+/* Contact Links */
+.contact-link {
+    list-style-type: circle;
+    padding: 0;
+    transition: 0.3s;
+
+}
+
+.contact-link a {
+    color: #2e86dd;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+.contact-link a:hover {
+    color: #ffffff;
+}
+
+/* Contact Form Section */
+.contact-form {
+    width: 100%;
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #09162b;
+    border-radius: 15px;
+    border: 3px solid #aa8407;
+}
+
+.contact-form h2 {
+    color: #aa8407;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    color: white;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #aa8407;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #c79b0d;
+}
+
+.content-width {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+
+/* Navigation */
+
+.navbar {
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Hero */
+
+.hero {
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+}
+
+.hero p {
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+/* About */
+
+.about {
+    margin: 40px 15px;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.about p,
+.about ol {
+    font-size: 16px;
+}
+
+/* Projects */
+
+.projects {
+    padding: 20px;
+}
+
+.projects h1 {
+    font-size: 2rem;
+}
+
+.project-card {
+    padding: 25px;
+}
+
+/* Contact */
+
+.contact-hero h1 {
+    font-size: 2rem;
+}
+
+.contact-info,
+.contact-form {
+    width: 100%;
+    max-width: 100%;
+    padding: 25px;
+}
+
+/* Footer */
+
+footer {
+    padding: 15px;
+}
+
+}
