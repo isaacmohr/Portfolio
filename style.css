@@ -169,6 +169,21 @@ section {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+.status.completed {
+    color: green;
+    font-weight: bold;
+}
+
+.status.progress {
+    color: orange;
+    font-weight: bold;
+}
+
+.status.soon {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
 /* Footer */
 footer {
     background-color: #09162b;
@@ -385,4 +400,4 @@ footer {
 }
 
 }
-/* TEST CHANGE */
+
