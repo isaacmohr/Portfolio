@@ -130,15 +130,6 @@ section {
     color: #797474;
     font-size: 18px;
 }
-.about ol {
-    list-style-type: disc;
-    color: #797474;
-    font-size: 18px;
-    padding-left: 20px;
-    text-align: center;
-    list-style-type: decimal;
-
-}
 
 /* Projects Section */
 .projects {
