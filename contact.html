@@ -12,7 +12,7 @@
 <header>
     <nav class="navbar">
         <div class="logo">
-            <img src="assets/logo.PNG" alt="my logo" style="width:45px; height:auto; border-radius:15%; vertical-align:middle; margin-right: 10px">
+            <img src="assets/logo.png" alt="my logo" style="width:45px; height:auto; border-radius:15%; vertical-align:middle; margin-right: 10px; border:1px solid #aa8407;">
             <a href="index.html" style="vertical-align:middle;">My Contact Information</a>
         </div>
 
@@ -36,42 +36,29 @@
         <h2>Contact Information</h2><br>
         <li>Email: <a href="mailto:isaac.mohr429@icloud.com">isaac.mohr429@icloud.com</a></li>
         <li>LinkedIn: <a href="https://www.linkedin.com/in/isaacmohr29">linkedin.com/in/isaacmohr29</a></li>
-        <li>GitHub: <a href="https://github.com/isaacmohr">github.com/isaacmohr</a></li>
+        <li>GitHub: <a href="Shttps://github.com/isaacmohr">github.com/isaacmohr</a></li>
         <li>Phone: (740) 963-5826</li>
         <li>Located in Fort Mill, South Carolina</li>
     </ul>
 </section>
 
 <section class="contact-form">
-    <h2>Send Me a Message</h2>
+    <h2>Send Me A Message</h2>
 
-    <form>
-        <label for="name">Name</label>
-        <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Your Name"
-            required>
+<form action="https://formspree.io/f/xeeypodp" method="POST">
 
-        <label for="email">Email</label>
-        <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your Email"
-            required>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
 
-        <label for="message">Message</label>
-        <textarea
-            id="message"
-            name="message"
-            rows="6"
-            placeholder="Write your message here..."
-            required></textarea>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
 
-        <button type="submit">Send Message</button>
-    </form>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+</form>
 </section>
 
 <footer>

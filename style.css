@@ -28,14 +28,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 20px 5%;
     background-color: #09162b;
-
     position: sticky;
     top: 0;
 }
-
 
 /* Logo */
 .logo a {
